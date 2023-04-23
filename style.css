@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+:root {
+    --background-all: #061B38;
+    --background--initial: #383D58;
+    --background-gradient: #4EBFE9;
+    --backgound-s-cection: #D9D9D9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-all);
+}
+
+.logo-pagina {
+    height: 50%;
+}
+
+.logo-pagina, .lista {
+    margin: 2rem 5rem;
+}
+
+.lista {
+    display: flex;
+    padding-right: 7rem;
+}
+
+.lista-item {
+    color: white;
+    list-style: none;
+    margin: 1rem;
+    font-size: 24px;
+}
+
+.ancora-lista-item {
+    text-decoration: none;
+    color: white;
+    transition: 1.2s;
+}
+
+.ancora-lista-item:hover {
+    text-decoration: underline;
+    color: aquamarine;
+    transition: 1.2s;
+}
+
+.ancora-lista-item:active {
+    transition: .1ms;
+    color: #2aca72;
+}
+
+.initial-container {
+    display: flex;
+    color: white;
+    background: linear-gradient(var(--background-all), var(--background-gradient));
+    justify-content: center;
+    padding: 7rem 5rem 10rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.third-container {
+    background: #ffffff;
+}
+
+.fourth-container {
+    background: lightgray;
+}
+
+.div-initial-container {
+    display: block;
+    width: 50%;
+    margin: 1rem;
+}
+
+.titulo-container {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.texto-container {
+    font-weight: 300;
+    font-size: 24px;
+    padding: .5rem 0;
+}
+
+.img-container-initial {
+    width: 40%;
+    height: 40%;
+}
+
+.second-container {
+    background-color: var(--backgound-s-cection);
+}
+
+.s-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 8rem;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.texto-escondido {
+    text-align: center;
+    font-size: 11px;
+    width: 12rem;
+    padding: 0;
+    margin: 0;
+    height: 0;
+    font-weight: 500;
+}
+
+.s-container-titulo {
+    text-align: center;
+    padding: 5rem 1rem 0;
+}
+
+.card-integrantes {
+    margin: 1rem;
+}
+
+.nome-integrante {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin: .5rem;
+}
+
+.ancora-integrante {
+    transition: .5s;
+    background: none;
+}
+
+.ancora-integrante:hover, .ancora-lider:hover, .ancora-agi:hover {
+    transition: .5s;
+    background-color: #43cfac;
+    border-radius: 7px;
+    opacity: .7;
+}
+
+.ancora-integrante:active, .ancora-lider:active, .ancora-agi:active {
+    transition: .1s;
+    background-color: #71fd7d;
+}
+
+.t-section-container, .f-section-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-lideres, .card-agi {
+    padding: 1.5rem 5rem;
+}
+
+.nome-lider, .nome-agi {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin: .5rem;
+}
+
+.icon-lider {
+    display: flex;
+    justify-content: center;
+}
+
+.ancora-lider, .ancora-agi {
+    text-decoration: none;
+    margin: .5rem;
+}
+
+.rodape {
+    background-color: #010811;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-footer {
+    padding: 2rem;
+}
